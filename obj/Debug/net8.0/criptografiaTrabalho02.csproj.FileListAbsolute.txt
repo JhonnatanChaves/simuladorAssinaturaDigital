@@ -1,0 +1,14 @@
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\bin\Debug\net8.0\criptografiaTrabalho02.exe
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\bin\Debug\net8.0\criptografiaTrabalho02.deps.json
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\bin\Debug\net8.0\criptografiaTrabalho02.runtimeconfig.json
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\bin\Debug\net8.0\criptografiaTrabalho02.dll
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\bin\Debug\net8.0\criptografiaTrabalho02.pdb
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.AssemblyInfoInputs.cache
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.AssemblyInfo.cs
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.csproj.CoreCompileInputs.cache
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.dll
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\refint\criptografiaTrabalho02.dll
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.pdb
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.genruntimeconfig.cache
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\ref\criptografiaTrabalho02.dll
