@@ -61,13 +61,29 @@ do
     }
 
     if (opcoesMenu1 == "2")
-    {        
+    {
+        Console.WriteLine("__________________________________________________________________");
 
+        Console.WriteLine("Escolha uma das opções para ver a mensagem clara:");
+        Console.WriteLine("1 - Mensagem assinada");
+        Console.WriteLine("2 - Mensagem confidencial");
 
-        if(AssinaturaDigital.VerificarAssinatura(perfil.CaminhoChaveCompartilhada) == true)
+        opcoesMenu2 = Console.ReadLine();
+
+        if (opcoesMenu2 == "1")
         {
-            Console.WriteLine("A mensagem foi escrita por " + DonoDaChaveCompartilhada.BuscarNome(perfil.CaminhoChaveCompartilhada));
-            Console.WriteLine("A última mensagem decifrada do arquivo é : " + AssinaturaDigital.SepararMensagemEAssinatura().First());
+            if (AssinaturaDigital.VerificarAssinatura(perfil.CaminhoChaveCompartilhada) == true)
+            {
+                Console.WriteLine("A mensagem foi escrita por " + DonoDaChaveCompartilhada.BuscarNome(perfil.CaminhoChaveCompartilhada));
+                Console.WriteLine("A última mensagem decifrada do arquivo é : " + AssinaturaDigital.SepararMensagemEAssinatura().First());
+            }
+
+        }
+        else
+        {
+            string mensagemDecifrada = ConversorDeMensagem.DecifrarComChavePrivada(perfil);
+            Console.WriteLine("Mensagem Decifrada: " + mensagemDecifrada);
+            
         }
 
     }

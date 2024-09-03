@@ -22,7 +22,9 @@ namespace criptografiaTrabalho02.Service
 
         public static void GarantirConfidencialidade(string? mensagem, Pessoa pessoa)
         {
-            throw new NotImplementedException();
+            string mensagemCifrada = ConversorDeMensagem.CifrarComChavePublica(mensagem, pessoa.CaminhoChaveCompartilhada);
+            
+            ManipulacaoDeArquivo.SalvarMensagemNoArquivo(mensagemCifrada);
         }
     }
 }

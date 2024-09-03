@@ -19,7 +19,7 @@ namespace criptografiaTrabalho02.Service
             Console.WriteLine("A mensagem cifrada foi salva no arquivo!");
         }
 
-        private static string? LerUltimaMensagemDoArquivo()
+        public static string? LerUltimaMensagemDoArquivo()
         {
             if (File.Exists(ArquivoDeTrocaDeMensagens))
             {
@@ -31,19 +31,6 @@ namespace criptografiaTrabalho02.Service
             }
             return null;
         }
-      
-        public static string? MensagemDecifrada()
-        {
-
-            string? ultimaMensagemCifrada = LerUltimaMensagemDoArquivo();
-
-            if(ultimaMensagemCifrada != null)
-            {
-                    string mensagemDecifrada = ConversorDeMensagem.Decifrar(ultimaMensagemCifrada);
-                    return mensagemDecifrada;
-            }
-
-            return null;
-        }
+          
     }
 }

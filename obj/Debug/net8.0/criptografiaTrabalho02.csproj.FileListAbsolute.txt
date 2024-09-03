@@ -12,3 +12,4 @@ C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\refint\c
 C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.pdb
 C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.genruntimeconfig.cache
 C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\ref\criptografiaTrabalho02.dll
+C:\Users\Jhonnatan\source\repos\criptografiaTrabalho02\obj\Debug\net8.0\criptografiaTrabalho02.sourcelink.json

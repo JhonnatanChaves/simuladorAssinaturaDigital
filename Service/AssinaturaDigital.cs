@@ -47,7 +47,7 @@ namespace criptografiaTrabalho02.Service
 
         public static String[] SepararMensagemEAssinatura()
         {
-            string? mensagemCifradaComAssinatura = ManipulacaoDeArquivo.MensagemDecifrada();
+            string? mensagemCifradaComAssinatura = ConversorDeMensagem.MensagemDecifrada();
 
             String[]? parts = mensagemCifradaComAssinatura.Split(new string[] { "<ASSINATURA>" }, StringSplitOptions.None);
             string? mensagemOriginal = parts[0];
