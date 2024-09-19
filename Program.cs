@@ -4,15 +4,25 @@
 using criptografiaTrabalho02.Model;
 using criptografiaTrabalho02.Service;
 using criptografiaTrabalho02.Util;
+using System.Diagnostics;
 
 Bob bob = new Bob();
-bob.Criar();
-
 Alice alice = new Alice();
+Stopwatch stopwatch = new Stopwatch();
+
+bob.Criar();
 alice.Criar();
 
+
+stopwatch.Start();
 GeradorDeChaves.GerarChaves(bob);
+stopwatch.Stop();
+Console.WriteLine($"Tempo de geração do par de chaves de Bob: {stopwatch.ElapsedMilliseconds} ms");
+
+stopwatch.Start();
 GeradorDeChaves.GerarChaves(alice);
+stopwatch.Stop();
+Console.WriteLine($"Tempo de geração do par de chaves de Alice: {stopwatch.ElapsedMilliseconds} ms");
 
 bob.ReceberChaveCompartilhada(alice);
 alice.ReceberChaveCompartilhada(bob);
